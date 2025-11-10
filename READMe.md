@@ -32,7 +32,7 @@ It’s built on top of [ioredis](https://github.com/luin/ioredis) and designed f
 ---
 
 ## 🧱 Architecture Overview
-
+```text
 RedisRepository
 ├── collection["users"]
 │ ├── .set() → Insert / Update
@@ -44,6 +44,7 @@ RedisRepository
 │ users:index:role:CTO → [users:1, users:3]
 │
 └── Built on ioredis
+```
 
 ---
 
