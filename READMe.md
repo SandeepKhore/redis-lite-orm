@@ -179,33 +179,23 @@ Please read the CONTRIBUTING.md
  before submitting a pull request.
 
 Quick Steps
-
-Fork the repo
-
-Create a feature branch (git checkout -b feature/add-pagination)
-
-Commit changes (git commit -m "feat: add pagination support")
-
-Push to your fork
-
-Open a Pull Request 🚀
+1. Fork the repo
+2. Create a feature branch (git checkout -b feature/add-pagination)
+3. Commit changes (git commit -m "feat: add pagination support")
+4. Push to your fork
+5. Open a Pull Request 🚀
 
 ---
 
 ## 🧠 Roadmap
- Pagination (limit, skip)
+- Pagination (limit, skip)
+- .count() and .exists() helpers
+- Compound indexes
+- Batch operations (pipelines)
+- Schema validation layer
+- TypeScript type definitions
 
- .count() and .exists() helpers
-
- Compound indexes
-
- Batch operations (pipelines)
-
- Schema validation layer
-
- TypeScript type definitions
-
- ---
+---
 
 ## 🧑‍💻 Author
 Sandeep Khore
