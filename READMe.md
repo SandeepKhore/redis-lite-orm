@@ -1,6 +1,6 @@
 # 🚀 Redis ORM – A MongoDB-like Query Layer for Redis
 
-[![npm version](https://img.shields.io/npm/v/redis-orm.svg?color=brightgreen)](https://www.npmjs.com/package/redis-orm)
+[![npm version](https://img.shields.io/npm/v/redis-lite-orm.svg?color=brightgreen)](https://www.npmjs.com/package/redis-lite-orm)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D16.0-orange.svg)](https://nodejs.org)
@@ -50,7 +50,7 @@ RedisRepository
 ## 🧩 Installation
 
 ```bash
-npm install redis-orm
+npm install redis-lite-orm
 ```
 Requires Node.js ≥ 16 and a running Redis instance.
 
@@ -58,7 +58,7 @@ Requires Node.js ≥ 16 and a running Redis instance.
 
 ## 🧠 Usage Example
 ```js
-import redis from "redis-orm";
+import redis from "redis-lite-orm";
 
 (async () => {
   // Insert documents
@@ -133,7 +133,7 @@ Environment variables:
 ---
 
 ### 🧰 Example Directory Structure
-redis-orm/
+redis-lite-orm/
 ├── src/
 │   ├── index.js
 │   ├── config.js
@@ -150,8 +150,8 @@ redis-orm/
 ## 🧱 Local Development
 
 ```bash
-git clone https://github.com/sandeepkhore/redis-orm.git
-cd redis-orm
+git clone https://github.com/sandeepkhore/redis-lite-orm.git
+cd redis-lite-orm
 npm install
 ```
 Run locally:
