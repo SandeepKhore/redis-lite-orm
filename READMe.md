@@ -134,6 +134,7 @@ Environment variables:
 ---
 
 ### 🧰 Example Directory Structure
+```text
 redis-lite-orm/
 ├── src/
 │   ├── index.js
@@ -145,6 +146,7 @@ redis-lite-orm/
 ├── README.md
 ├── LICENSE
 └── CONTRIBUTING.md
+```
 
 ---
 
