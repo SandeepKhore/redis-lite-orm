@@ -73,6 +73,8 @@ Then open a Pull Request (PR) on GitHub with:
 - Screenshots or logs if helpful
 - Reference related issues if any (e.g. Closes #12)
 
+---
+
 ## 🧪 Running Redis Locally
 Make sure Redis is running:
 ```bash
@@ -84,12 +86,16 @@ or use Docker:
 docker run --name redis -p 6379:6379 -d redis
 ```
 
+---
+
 ## 🧠 Contribution Ideas
 - 🧩 Add pagination support (limit, skip)
 - 📊 Add .count() and .exists() helpers
 - ⚡ Optimize index cleanup for TTL expiry
 - 🧱 Add schema validation support
 - 🧰 Add test suite (Jest / Mocha)
+
+---
 
 ## 💬 Community
 For feature requests or questions:
